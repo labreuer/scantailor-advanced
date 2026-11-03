@@ -13,7 +13,7 @@ using namespace foundation;
 namespace output {
 BlackWhiteOptions::BlackWhiteOptions()
     : m_thresholdAdjustment(0),
-      m_savitzkyGolaySmoothingEnabled(true),
+      m_savitzkyGolaySmoothingEnabled(false),
       m_morphologicalSmoothingEnabled(true),
       m_normalizeIllumination(true),
       m_windowSize(200),
